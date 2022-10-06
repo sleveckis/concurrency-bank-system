@@ -1,0 +1,66 @@
+==6106== Memcheck, a memory error detector
+==6106== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==6106== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==6106== Command: ./bank input-1.txt
+==6106== 
+==6106== Warning: client switching stacks?  SP change: 0x1ffed40a80 --> 0x1ffefffca0
+==6106==          to suppress, use: --max-stackframe=2880032 or greater
+Working thread: 6108 created but waiting
+Working thread: 6107 created but waiting
+Working thread: 6110 created but waiting
+Working thread: 6109 created but waiting
+Working thread: 6112 created but waiting
+Working thread: 6111 created but waiting
+Working thread: 6114 created but waiting
+Working thread: 6115 created but waiting
+Working thread: 6116 created but waiting
+Periodic Thread: 6117 created but waiting
+Working thread: 6113 created but waiting
+Working thread: 6107 now working 
+Periodic Thread: 6117 started working
+Working thread: 6116 now working 
+Working thread: 6113 now working 
+Working thread: 6111 now working 
+Working thread: 6114 now working 
+Working thread: 6110 now working 
+Working thread: 6109 now working 
+Working thread: 6108 now working 
+Working thread: 6112 now working 
+Working thread: 6115 now working 
+Total updates: 1
+Total updates: 2
+Total updates: 3
+Total updates: 4
+Total updates: 5
+Total updates: 6
+Total updates: 7
+Total updates: 8
+Total updates: 9
+Total updates: 10
+Total updates: 11
+Worker thread 6109 done 
+Total updates: 12
+Worker thread 6114 done 
+Worker thread 6111 done 
+Total updates: 13
+Total updates: 14
+Worker thread 6107 done 
+Total updates: 15
+Worker thread 6113 done 
+Total updates: 16
+Worker thread 6115 done 
+Worker thread 6110 done 
+Worker thread 6116 done 
+Total updates: 17
+Worker thread 6108 done 
+Worker thread 6112 done 
+Total updates: 18
+==6106== 
+==6106== HEAP SUMMARY:
+==6106==     in use at exit: 0 bytes in 0 blocks
+==6106==   total heap usage: 880,505 allocs, 880,505 frees, 30,632,942 bytes allocated
+==6106== 
+==6106== All heap blocks were freed -- no leaks are possible
+==6106== 
+==6106== For counts of detected and suppressed errors, rerun with: -v
+==6106== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
